@@ -1,0 +1,25 @@
+.logo-imag{
+    text-align: center;
+}
+
+footer img{
+    width: 60%;
+}
+
+
+footer ul li a{
+    text-decoration:none;
+}
+
+
+footer ul li a:hover{
+    text-decoration: underline 1px black;
+    text-underline-offset: 3px;
+}
+
+
+@media screen and (max-width: 985px) {
+    .logo-imag{
+        text-align: start;
+    }
+  }
