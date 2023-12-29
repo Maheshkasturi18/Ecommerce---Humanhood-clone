@@ -18,6 +18,27 @@ footer ul li a:hover{
 }
 
 
+.newsletter input{
+    width: 350px;
+}
+
+.newsletter form .inp-grp{
+    border: 1px solid  grey;
+}
+
+.newsletter form .inp-grp:hover{
+    border: 1px solid  black;
+}
+
+.follow-us{
+    margin-top: auto;
+}
+
+.follow-us i:hover{
+   transform: scale(1.1);
+}
+
+
 @media screen and (max-width: 985px) {
     .logo-imag{
         text-align: start;
