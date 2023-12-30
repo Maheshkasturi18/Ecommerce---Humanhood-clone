@@ -6,13 +6,13 @@ export default class Footer extends Component {
     return (
       <footer className="">
         <div className="border-bottom border-dark-subtle">
-          <div className="container">
+          <div className="container px-4 px-lg-0">
             <div className="row">
-              <div className="col-lg-4 logo-imag mb-4">
+              <div className="col-md-4 logo-imag mb-4">
                 <img src="images/logo-img.avif" alt="" />
               </div>
 
-              <div className="col-lg-4 mb-4">
+              <div className="col-md-4 mb-4">
                 <h6 className="mb-3">Navigation</h6>
 
                 <ul className="list-unstyled mb-0 lh-lg">
@@ -65,7 +65,7 @@ export default class Footer extends Component {
                 </ul>
               </div>
 
-              <div className="col-lg-4">
+              <div className="col-md-4">
                 <h6 className="mb-3">Policies</h6>
 
                 <ul className="list-unstyled mb-0 lh-lg">
@@ -93,7 +93,7 @@ export default class Footer extends Component {
               </div>
             </div>
 
-            <div className="d-flex justify-content-between newsletter py-5">
+            <div className=" newsletter py-5">
               <div>
                 <h5>Subscribe to our emails</h5>
                 <form action="#">
@@ -119,7 +119,7 @@ export default class Footer extends Component {
                 </form>
               </div>
 
-              <div className="d-flex gap-4  follow-us">
+              <div className="gap-4  follow-us">
                 <i class="fa-brands fa-square-facebook fs-4"></i>
                 <i class="fa-brands fa-instagram fs-4"></i>
                 <i class="fa-brands fa-linkedin-in fs-4"></i>
