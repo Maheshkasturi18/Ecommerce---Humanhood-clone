@@ -1,0 +1,26 @@
+.feat-row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-around;
+}
+
+.feat-img {
+  width: 200px;
+  max-width: 100%;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .feat-img {
+    width: 300px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px){
+    .feat-row {
+        display: block ;
+        
+      }
+}

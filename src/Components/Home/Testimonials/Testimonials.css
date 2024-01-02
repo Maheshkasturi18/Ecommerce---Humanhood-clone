@@ -4,23 +4,107 @@
   box-sizing: border-box;
 }
 
-/* testimonial */
+.slick-slide > div {
+  margin: 0 20px;
+}
+
 .testimonial i {
   color: gold;
   text-align: center;
   margin-bottom: 10px;
 }
 
-.testimonial-bg {
+.testimonial {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.testimonial::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: calc(65% - 0px);
+  left: calc(16% - 15px);
+  transform: rotate(45deg);
   background-color: #f5f5f5;
 }
 
-.testi-row {
-  display: flex !important;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+@media screen and (max-width: 780px) {
+  .testimonial::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: calc(68% - 0px);
+    left: calc(16% - 15px);
+    transform: rotate(45deg);
+    background-color: #f5f5f5;
+  }
+  .slick-prev {
+    left: -10px;
+    top: 125px;
+    background-color: dimgray;
+  }
+  .slick-next {
+    right: -10px;
+    top: 125px;
+    background-color: dimgray;
+  }
 }
 
+@media screen and (max-width: 440px) {
+  .testimonial::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: calc(56% - 0px);
+    left: calc(16% - 15px);
+    transform: rotate(45deg);
+    background-color: #f5f5f5;
+  }
+  .slick-prev {
+    left: -10px;
+    top: 80px;
+    background-color: dimgray;
+  }
+  .slick-next {
+    right: -10px;
+    top: 80px;
+    background-color: dimgray;
+  }
+}
+@media screen and (max-width: 380px) {
+  .testimonial::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: calc(50% - 0px);
+    left: calc(16% - 15px);
+    transform: rotate(45deg);
+    background-color: #f5f5f5;
+  }
+}
 
+@media screen and (max-width: 330px) {
+  .testimonial::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: calc(60% - 0px);
+    left: calc(16% - 15px);
+    transform: rotate(45deg);
+    background-color: #f5f5f5;
+  }
+}
+
+.testimonial .review {
+  margin-bottom: 40px;
+}
+
+.widget a:hover {
+  text-decoration: none;
+}

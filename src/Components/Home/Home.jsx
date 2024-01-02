@@ -2,7 +2,8 @@ import "./Home.css";
 import Herosection from "./Herosection/Herosection";
 import Featured from "./Featured/Featured";
 import Testimonials from "./Testimonials/Testimonials"
-import Hamper from "./Hamper/Hamper";
+// import Hamper from "./Hamper/Hamper";
+import Blog from "./Blog/Blog"
 
 function Home() {
   return (
@@ -10,7 +11,8 @@ function Home() {
       <Herosection />
       <Featured />
       <Testimonials/>
-      <Hamper/>
+      {/* <Hamper/> */}
+      <Blog/>
     </div>
   );
 }
