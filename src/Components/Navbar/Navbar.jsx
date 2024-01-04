@@ -5,7 +5,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <header className="sticky-top">
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary fs-sand">
           <div className="container py-3">
 
           <button

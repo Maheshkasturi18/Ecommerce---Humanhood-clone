@@ -37,16 +37,16 @@ export default class Blog extends Component {
     return (
       <section className="border-bottom border-dark-subtle">
         <div className="container mb-5 ">
-          <h2 className="mb-4 d-none"> Read... </h2>
+          <h2 className="mb-4 d-none d-lg-block px-3 "> Read </h2>
 
-          <div className="d-flex justify-content-between px-3 d-sm-block d-md-block mb-4">
+          <div className="d-flex justify-content-between px-3  d-md-block d-lg-none mb-4">
             <h2 className=""> Read... </h2>
-            <a href="/" className=" text-secondary ">
+            <a href="/" className="text-906">
               View all
             </a>
           </div>
 
-          <Slider {...settings} className="mb-5">
+          <Slider {...settings} className="mb-5 fs-sand">
             <div className="card h-100 border-0 cd">
               <div className="card-img">
                 <img
@@ -58,7 +58,7 @@ export default class Blog extends Component {
 
               <div className="card-body">
                 <a href="">
-                  <h6 className="card-title text-black">
+                  <h6 className="card-title text-black fw-semibold">
                     Do These Five Things Before You Welcome New Yea...
                   </h6>
                 </a>
@@ -83,14 +83,14 @@ export default class Blog extends Component {
               </div>
               <div className="card-body">
                 <a href="">
-                  <h6 className="card-title text-black">
+                  <h6 className="card-title text-black fw-semibold">
                     These 5 Ways Will Help You Cultivate A Positive...
                   </h6>
                 </a>
                 <p className="card-text text-black card-date ">
                   DECEMBER 19, 2023
                 </p>
-                <p className="card-text text-dark">
+                <p className="card-text text-dark lh-base">
                   Your mindset is one of the most powerful tools out there and
                   it can affect many areas of your health and well being . It
                   also plyas a key role in...
@@ -108,7 +108,7 @@ export default class Blog extends Component {
               </div>
               <div className="card-body">
                 <a href="">
-                  <h6 className="card-title text-black">
+                  <h6 className="card-title text-black fw-semibold">
                     5 Examples of Vision Boards That You Can Use To...
                   </h6>
                 </a>

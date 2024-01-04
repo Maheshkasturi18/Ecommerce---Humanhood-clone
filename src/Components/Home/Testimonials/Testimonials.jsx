@@ -39,7 +39,7 @@ export default class Testimonials extends Component {
         <h2 className="mb-4 text-906"> Testimonials </h2>
         <Slider {...settings}>
           <div className="">
-            <div className=" p-3 p-md-5 testimonial mb-3">
+            <div className=" p-3 p-md-5 testimonial mb-3 ">
               <i className="fa-solid fa-star star"></i>
               <i className="fa-solid fa-star star"></i>
               <i className="fa-solid fa-star star"></i>

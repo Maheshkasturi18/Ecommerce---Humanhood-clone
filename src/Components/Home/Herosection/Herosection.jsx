@@ -19,7 +19,7 @@ export default class Herosection extends Component {
                 <h1 className="text-906 mb-3 pe-3">
                   Humanhood x Bodh Gem & Crystals
                 </h1>
-                <p className="lh-lg text-906 mb-4">
+                <p className="lh-lg text-906 mb-4 fs-sand">
                   When affirmations come together with crystals that have
                   grounding and abundant energies; your goals will amplify and
                   come to life. Manifest your dream year with this hamper and
