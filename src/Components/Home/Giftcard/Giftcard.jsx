@@ -1,14 +1,8 @@
-import React, { Component , useState} from "react";
+import React, { Component, useState } from "react";
 import "./Giftcard.css";
-import Counter from "./Giftcard";
-
 
 export default class Giftcard extends Component {
-  
-  render()
-  
-  
-  {
+  render() {
     return (
       <section className="Giftcard-bg mb-4 text-906 fs-sand">
         <div className="container py-5 ">
@@ -91,10 +85,27 @@ export default class Giftcard extends Component {
           </div>
         </div>
       </section>
-
-
-
     );
   }
 }
 
+// function Counter() {
+//   let data = 0;
+
+//   //printing default value of data that is 0 in h2 tag
+//   document.getElementById("counting").innerText = data;
+
+//   //creation of increment function
+//   function increment() {
+//     data = data + 1;
+//     document.getElementById("counting").innerText = data;
+//   }
+
+//   //creation of decrement function
+//   function decrement() {
+//     data = data - 1;
+//     document.getElementById("counting").innerText = data;
+//   }
+// }
+
+// export default Counter();

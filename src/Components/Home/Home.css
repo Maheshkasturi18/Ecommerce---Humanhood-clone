@@ -1,29 +1,4 @@
-/* common css */
 
-.text-906{
-    color:#90604c;
-}
-
-.bg-906{
-    background-color: #90604c;
-    text-decoration: none;
-    border-radius: 0;
-    color: white;
-    padding: 15px;
-}
-
-.bg-906:hover{
-    background-color: #90604c;
-    text-decoration: none;
-    color: white;
-}
-
-.fs-sand {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-family: "Quicksand", sans-serif;
-  }
-  
-/* end */
 
 
 

@@ -25,7 +25,7 @@ export default class Featured extends Component {
       <div className="container text-center">
         <h2 className="mb-4 text-906 "> Featured In </h2>
         <Slider {...settings}>
-          <div className="feat-row">
+          <div className="feat-row ">
             <img src="images/Featured_img1.webp" alt="" className="feat-img" />
             <img src="images/Featured_img2.webp" alt="" className="feat-img" />
             <img src="images/Featured_img3.webp" alt="" className="feat-img" />
