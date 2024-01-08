@@ -1,99 +1,92 @@
 /* common css */
 
-.text-906{
-    color:#90604c;
+.text-906 {
+  color: #90604c;
 }
 
-.bg-906{
-    background-color: #90604c;
-    text-decoration: none;
-    border-radius: 0;
-    color: white;
-    padding: 15px;
+.bg-906 {
+  background-color: #90604c;
+  text-decoration: none;
+  border-radius: 0;
+  color: white;
+  padding: 15px;
 }
 
-.bg-906:hover{
-    background-color: #90604c;
-    text-decoration: none;
-    color: white;
+.bg-906:hover {
+  background-color: #90604c;
+  text-decoration: none;
+  color: white;
 }
 
 .fs-sand {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-family: "Quicksand", sans-serif;
-  }
-  
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
+}
+
 /* end */
-
-
 
 /* Blog css start */
 
 .card-img {
-    overflow: hidden;
-    cursor: pointer;
-    border-radius: 0 ;
-  }
-  
-  .card-img img {
-    max-width: 100%;
-    max-height: 100%;
-    width: 100%;
-    height: 215px;
-    object-fit: cover;
-    transition: 0.7s all ease-out;
-    border-radius: 0 ;
-  }
-  
-  .card-date {
-    font-size: 12px;
-  }
-  
-  .cd a {
-    text-decoration: none;
-  }
-  
-  .cd a:hover {
-    text-decoration: underline;
-    text-decoration-color: black;
-    text-underline-offset: 3px;
-  }
-  
-  .card-img img:hover {
-    transform: scale(1.1);
-  }
-
-  /* Blog css end */
-
-
-
-/*  Hamper css start */
-  .hamper-bg{
-    background-color: #f5f5f5;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 0;
 }
 
-.img-fluid{
-    width: 100%;
+.card-img img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 215px;
+  object-fit: cover;
+  transition: 0.7s all ease-out;
+  border-radius: 0;
+}
+
+.card-date {
+  font-size: 12px;
+}
+
+.cd a {
+  text-decoration: none;
+}
+
+.cd a:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-underline-offset: 3px;
+}
+
+.card-img img:hover {
+  transform: scale(1.1);
+}
+
+/* Blog css end */
+
+/*  Hamper css start */
+.hamper-bg {
+  background-color: #f5f5f5;
+}
+
+.img-fluid {
+  width: 100%;
 }
 
 /* Hamper css end */
 
-
-
-
-  /* Testimonial css Start */
+/* Testimonial css Start */
 .testimonial i {
-    color: gold;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
-  .testimonial {
-    background-color: #f5f5f5;
-    border-radius: 10px;
-  }
-  
-  /* .testimonial::after {
+  color: gold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.testimonial {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+/* .testimonial::after {
     content: "";
     position: absolute;
     width: 30px;
@@ -174,97 +167,86 @@
       background-color: #f5f5f5;
     }
   } */
-  
-  .testimonial .review {
-    margin-bottom: 40px;
-  }
-  
-  .widget a:hover {
-    text-decoration: none;
-  }
 
-  /* Testimonial css end */
-
-
-
-
-  /* hero-section css start */
-  
-.hero-section1{
-    background-color: #f5f5f5;
-    height: 100%;
+.testimonial .review {
+  margin-bottom: 40px;
 }
 
-.hero-section1-img{
-    max-width: 100%;
-    max-height: 100%;
-    height: 472px;
-    object-fit: cover;
-    width: 100%;
+.widget a:hover {
+  text-decoration: none;
 }
-  /*hero-section css end  */
 
+/* Testimonial css end */
 
+/* hero-section css start */
 
-  /* gift card css start */
-  .fs-14 {
-    font-size: 14px;
-  }
-  
-  .Giftcard-bg {
-    background-color: #f5f5f5;
-  }
-  
-  .Giftcard-bg .share a {
-    text-decoration: none;
-  }
-  
-  .Giftcard-bg .share a:hover {
-    text-decoration: underline;
-  }
-  
-  .card-btn-price {
-    background-color: #90604c;
-    text-decoration: none;
-    border: 1px solid #a78170;
-    padding: 5px 20px;
-    color: white;
-    border-radius: 20px;
-  }
-  
-  .card-btn-price1 {
-    color: #90604c;
-    text-decoration: none;
-    border: 1px solid #a78170;
-    padding: 5px 20px;
-    border-radius: 20px;
-  }
-  
-  .card-btn-price1:hover {
-    border: 1px solid #90604c;
-  }
-  /* gift card css end */
+.hero-section1 {
+  background-color: #f5f5f5;
+  height: 100%;
+}
 
+.hero-section1-img {
+  max-width: 100%;
+  max-height: 100%;
+  height: 472px;
+  object-fit: cover;
+  width: 100%;
+}
+/*hero-section css end  */
 
+/* gift card css start */
+.fs-14 {
+  font-size: 14px;
+}
 
+.Giftcard-bg {
+  background-color: #f5f5f5;
+}
 
+.Giftcard-bg .share a {
+  text-decoration: none;
+}
 
-  /* featured css start */
+.Giftcard-bg .share a:hover {
+  text-decoration: underline;
+}
 
-  .feat-row {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: space-around;
-  }
-  
-  .feat-img {
-    width: 200px;
-    max-width: 100%;
-  }
-  
-  
-  
-  /* @media screen and (max-width: 900px) {
+.card-btn-price {
+  background-color: #90604c;
+  text-decoration: none;
+  border: 1px solid #a78170;
+  padding: 5px 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+.card-btn-price1 {
+  color: #90604c;
+  text-decoration: none;
+  border: 1px solid #a78170;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.card-btn-price1:hover {
+  border: 1px solid #90604c;
+}
+/* gift card css end */
+
+/* featured css start */
+
+.feat-row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-around;
+}
+
+.feat-img {
+  width: 200px;
+  max-width: 100%;
+}
+
+/* @media screen and (max-width: 900px) {
     .feat-img {
       width: 300px;
       max-width: 100%;
@@ -278,4 +260,24 @@
         }
   } */
 
-  /* featured css end */
+/* featured css end */
+
+/* join our community */
+
+.comnty_activity {
+  background-color: #f5f5f5;
+}
+
+.bg-90 {
+  background-color: #90604c !important;
+  border-radius: 0;
+  color: white !important;
+  padding: 15px;
+}
+
+.img-size{
+  width: 360px;
+  max-width: 100%;
+  object-fit: contain;
+  background-color: #f1f0ef;
+}

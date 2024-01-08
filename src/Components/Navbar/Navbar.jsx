@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 export default class Navbar extends Component {
   render() {
@@ -22,132 +23,133 @@ export default class Navbar extends Component {
               <span class="toggler-icon bottom-bar"></span>
             </button>
 
-            <a href="" className="navbar-Brand ">
+            <Link to="" className="navbar-Brand ">
               <img alt="" src="images/logo-img.avif" />
-            </a>
+            </Link>
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav ms-lg-3 me-auto ">
                 <li className="nav-item px-2 px-lg-3 item-list">
-                  <a className="nav-link active " aria-current="page" href="/">
+                  <Link className="nav-link active " aria-current="page" to="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item dropdown px-2">
-                  <a
+                  <Link
                     className="nav-link dropdown-toggle  px-lg-2"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                     id="services"
+                    to=""
                   >
                     Shop
-                  </a>
+                  </Link>
                   <ul className="dropdown-menu dropdown-content flex-column">
                     <li>
-                      <a className="dropdown-item" href="">
+                      <Link className="dropdown-item" to="">
                         Shop All
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
-                      <a className="dropdown-item text-wrap" href="">
+                      <Link className="dropdown-item text-wrap" to="">
                         Dreams to Reality Collection
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
-                      <a className="dropdown-item" href="">
+                      <Link className="dropdown-item" to="">
                         Self Help Products
-                      </a>
+                      </Link>
                     </li>
 
                     <li className="dropdown">
-                      <a
+                      <Link
                         className="dropdown-item dropdown-toggle"
-                        href=""
+                        to=""
                         role="button"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                         id="services"
                       >
                         Merchandise
-                      </a>
+                      </Link>
                       <ul className="dropdown-menu dropdown-content2">
                         <li>
-                          <a className="dropdown-item" href="">
+                          <Link className="dropdown-item" to="">
                             Notebooks
-                          </a>
+                          </Link>
                         </li>
 
                         <li>
-                          <a className="dropdown-item text-wrap" href="">
+                          <Link className="dropdown-item text-wrap" to="">
                             Tote Bags
-                          </a>
+                          </Link>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="">
+                          <Link className="dropdown-item" to="">
                             Candles
-                          </a>
+                          </Link>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="">
+                          <Link className="dropdown-item" to="">
                             Wall Art
-                          </a>
+                          </Link>
                         </li>
 
                         <li>
-                          <a className="dropdown-item text-wrap" href="">
+                          <Link className="dropdown-item text-wrap" to="">
                             Sweatshirts
-                          </a>
+                          </Link>
                         </li>
 
                         <li>
-                          <a className="dropdown-item" href="">
+                          <Link className="dropdown-item" to="">
                             Shop All
-                          </a>
+                          </Link>
                         </li>
 
                       </ul>
                     </li>
 
                     <li>
-                      <a className="dropdown-item" href="">
+                      <Link className="dropdown-item" to="">
                         Bulk Orders
-                      </a>
+                      </Link>
                     </li>
 
                     <li>
-                      <a className="dropdown-item" href="">
+                      <Link className="dropdown-item" to="">
                         Thoughtful Gifting
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
 
                 <li className="nav-item px-2 item-list">
-                  <a className="nav-link " aria-current="page" href="/">
+                  <Link className="nav-link " aria-current="page" to="JoinComn">
                     Join Our Community
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item px-2 item-list">
-                  <a className="nav-link " aria-current="page" href="/">
+                  <Link className="nav-link " aria-current="page" to="/">
                     Blogs
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item px-2 item-list">
-                  <a className="nav-link " aria-current="page" href="/">
+                  <Link className="nav-link " aria-current="page" to="/">
                     Talk Therapy
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item px-2 item-list">
-                  <a className="nav-link " aria-current="page" href="/">
+                  <Link className="nav-link " aria-current="page" to="/">
                     About Us
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
