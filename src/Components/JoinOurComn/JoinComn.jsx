@@ -5,10 +5,10 @@ export default class JoinComn extends Component {
     return (
       <div>
         <div className="container text-center text-906">
-          <div className="py-4 mb-4">
+          <div className="py-4 mb-4 px-md-5 p-lg-0 px-sm-0">
             <h1 className="mb-3">SMALL STEPS BY HUMANHOOD</h1>
             
-            <p className="container fs-sand">
+            <p className="container fs-sand lh-lg">
               This well-being community is an attempt to bring like-minded
               people together who are willing to take the small steps towards
               their well-being, personal growth and healthier lifestyles. We
@@ -22,13 +22,13 @@ export default class JoinComn extends Component {
 
           <div className="row">
             <div className="col-md-6">
-              <img src="images/join_comn_img1.webp" alt="" />
+              <img src="images/join_comn_img1.webp" alt="" className="join_comn_img1"/>
             </div>
             <div className="col-md-6 p-5 text-start">
-              <h4 className="mb-4 pe-5">
+              <h4 className="mb-4 pe-md-5 p-0">
                 How to get access to our exclusive community?
               </h4>
-              <div className="pe-5">
+              <div className="pe-md-5 p-0">
                 <p className="mb-3  fs-sand">
                   - Fill in an application form to become a part of this
                 </p>
@@ -42,7 +42,7 @@ export default class JoinComn extends Component {
               </div>
               <a
                 href=""
-                className="btn mt-4  fs-sand bg-906 px-5 py-0 text-start"
+                className="btn mt-4  fs-sand bg-906 px-md-5 px-4 py-0 text-start"
               >
                 Fill in the form to apply for Small Steps Community by Humanhood
               </a>
@@ -51,24 +51,24 @@ export default class JoinComn extends Component {
         </div>
         <div className="container-fluid comnty_activity py-5 mt-5">
           <div className="container">
-            <h1 className="text-center mb-4">Past Activities</h1>
+            <h1 className="text-center mb-4 text-906">Past Activities</h1>
 
-            <div className="row mb-5">
-              <div className="col-md-4">
+            <div className="row mb-5 text-center">
+              <div className="col-lg-4">
                 <img
                   src="images/join_comn_img2.webp"
                   alt=""
                   className="img-size  px-4 pt-4"
                 />
               </div>
-              <div className="col-md-4">
+              <div className="col-lg-4">
                 <img
                   src="images/join_comn_img3.webp"
                   alt=""
-                  className="img-size  px-4 pt-4"
+                  className="img-size  px-4 pt-4 my-md-4 m-sm-0 m-lg-0"
                 />
               </div>
-              <div className="col-md-4">
+              <div className="col-lg-4">
                 <img
                   src="images/join_comn_img4.webp"
                   alt=""
@@ -89,7 +89,7 @@ export default class JoinComn extends Component {
           </div>
         </div>
 
-        <div className="container text-center text-906 py-4 border-bottom border-dark-subtle">
+        <div className="container text-center text-906 py-4 ">
           <h1 className="mb-3">What can you expect from Small Steps?</h1>
           <p>
             If you become a member of our exclusive well-being community, you

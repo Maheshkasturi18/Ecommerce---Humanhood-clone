@@ -137,17 +137,17 @@ export default class Navbar extends Component {
                 </li>
 
                 <li className="nav-item px-2 item-list">
-                  <Link className="nav-link " aria-current="page" to="/">
+                  <Link className="nav-link " aria-current="page" to="Blogs">
                     Blogs
                   </Link>
                 </li>
                 <li className="nav-item px-2 item-list">
-                  <Link className="nav-link " aria-current="page" to="/">
+                  <Link className="nav-link " aria-current="page" to="TalkTherapy">
                     Talk Therapy
                   </Link>
                 </li>
                 <li className="nav-item px-2 item-list">
-                  <Link className="nav-link " aria-current="page" to="/">
+                  <Link className="nav-link " aria-current="page" to="Aboutus">
                     About Us
                   </Link>
                 </li>

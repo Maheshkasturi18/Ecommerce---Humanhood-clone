@@ -35,7 +35,7 @@ export default class Blog extends Component {
       ],
     };
     return (
-      <section className="border-bottom border-dark-subtle">
+      <section >
         <div className="container mb-5 ">
           <h2 className="mb-4 d-none d-lg-block px-3 "> Read </h2>
 
