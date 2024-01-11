@@ -5,6 +5,7 @@ import Testimonials from "./Testimonials/Testimonials"
 import Hamper from "./Hamper/Hamper";
 import Blog from "./Blog/Blog"
 import Giftcard from "./Giftcard/Giftcard";
+import FeatProd from "../FeatProd/FeatProd";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Testimonials/>
       <Hamper/>
       <Giftcard/>
+      <FeatProd/>
       <Blog/>
     </div>
   );
