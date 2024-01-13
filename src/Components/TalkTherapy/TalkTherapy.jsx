@@ -29,7 +29,7 @@ export default class TalkTherapy extends Component {
             </div>
           </div>
         </div>
-        <div className="container-fluid know_more py-5 mt-2 text-906">
+        <div className="container-fluid bg-f5 py-5 mt-2 text-906">
           <div className="container">
             <h1 className="text-center mb-lg-5 mb-4">Know More</h1>
 

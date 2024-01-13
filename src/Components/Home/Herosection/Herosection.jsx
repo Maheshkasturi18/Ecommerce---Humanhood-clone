@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Herosection.css";
+
 
 export default class Herosection extends Component {
   render() {
@@ -15,7 +15,7 @@ export default class Herosection extends Component {
               />
             </div>
             <div className="col-md-6 ps-0">
-              <div className=" hero-section1 p-lg-5 p-3">
+              <div className=" hero-section1 bg-f5 p-lg-5 p-3">
                 <h1 className="text-906 mb-3 pe-3">
                   Humanhood x Bodh Gem & Crystals
                 </h1>

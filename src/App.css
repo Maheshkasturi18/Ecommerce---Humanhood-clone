@@ -25,6 +25,14 @@
   color: white;
 }
 
+.bg-f5 {
+  background-color: #f5f5f5;
+}
+
+.border-906 {
+  border-color: #90604c;
+}
+
 .fs-sand {
   font-family: "IBM Plex Sans", sans-serif;
   font-family: "Quicksand", sans-serif;
@@ -96,10 +104,6 @@
 /* Blog css end */
 
 /*  Hamper css start */
-.hamper-bg {
-  background-color: #f5f5f5;
-}
-
 .img-fluid {
   width: 100%;
 }
@@ -238,7 +242,6 @@
 /* hero-section css start */
 
 .hero-section1 {
-  background-color: #f5f5f5;
   height: 100%;
 }
 
@@ -256,16 +259,8 @@
   font-size: 14px;
 }
 
-.Giftcard-bg {
-  background-color: #f5f5f5;
-}
-
-.Giftcard-bg .share a {
-  text-decoration: none;
-}
-
 .Giftcard-bg .share a:hover {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 .card-btn-price {
@@ -322,10 +317,6 @@
 
 /* join our community start*/
 
-.comnty_activity {
-  background-color: #f5f5f5;
-}
-
 .join_comn_img1 {
   width: 100%;
   max-width: 100%;
@@ -344,10 +335,6 @@
 
 /* talk therapy start*/
 
-.know_more {
-  background-color: #f5f5f5;
-}
-
 .know_more_column {
   background-color: #f1f0ef;
 }
@@ -355,9 +342,6 @@
 /* talk therapy end*/
 
 /* aboutus start */
-.founder-name {
-  background-color: #f5f5f5;
-}
 
 .founder-img {
   width: 100%;
@@ -405,9 +389,6 @@
     height: 200px;
   }
 }
-
-
-
 
 .feat-prod-img img:hover {
   transform: scale(1.1);

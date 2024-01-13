@@ -5,7 +5,7 @@ export default class JoinComn extends Component {
     return (
       <div>
         <div className="container text-center text-906">
-          <div className="py-4 mb-4 px-md-5 p-lg-0 px-sm-0">
+          <div className="py-4 mb-4 px-md-5 px-sm-0">
             <h1 className="mb-3">SMALL STEPS BY HUMANHOOD</h1>
             
             <p className="container fs-sand lh-lg">
@@ -49,7 +49,7 @@ export default class JoinComn extends Component {
             </div>
           </div>
         </div>
-        <div className="container-fluid comnty_activity py-5 mt-5">
+        <div className="container-fluid bg-f5 py-5 mt-5">
           <div className="container">
             <h1 className="text-center mb-4 text-906">Past Activities</h1>
 

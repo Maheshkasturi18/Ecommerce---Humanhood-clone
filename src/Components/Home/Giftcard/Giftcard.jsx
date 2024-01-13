@@ -1,10 +1,9 @@
 import React, { Component, useState } from "react";
-import "./Giftcard.css";
 
 export default class Giftcard extends Component {
   render() {
     return (
-      <section className="Giftcard-bg mb-4 text-906 fs-sand">
+      <section className="bg-f5 mb-4 text-906 fs-sand">
         <div className="container py-5 ">
           <div className="row ">
             <div className="col-lg-6 mb-4 mb-md-0">
@@ -56,8 +55,8 @@ export default class Giftcard extends Component {
                 </a>
               </div>
 
-              <div className="d-flex justify-content-between share">
-                <a href="" className="text-906">
+              <div className="d-flex justify-content-between share  ">
+                <a href="" className="text-906 text-decoration-none">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -76,7 +75,7 @@ export default class Giftcard extends Component {
                   </svg>
                   Share
                 </a>
-                <a href="" className="text-906 arrow">
+                <a href="" className="text-906 arrow text-decoration-none">
                   View full details
                   
                 </a>

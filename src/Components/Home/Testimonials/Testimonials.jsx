@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./Testimonials.css";
+
 
 export default class Testimonials extends Component {
   render() {
@@ -53,7 +53,7 @@ export default class Testimonials extends Component {
             <h6>Kavya Mita</h6>
           </div>
           <div>
-            <div  className=" p-3 p-md-5 testimonial mb-3">
+            <div  className=" p-3 p-md-5 testimonial mx-3 mb-3">
               <i className="fa-solid fa-star star"></i>
               <i className="fa-solid fa-star star"></i>
               <i className="fa-solid fa-star star"></i>

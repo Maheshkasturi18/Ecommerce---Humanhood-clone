@@ -27,7 +27,7 @@ export default class Aboutus extends Component {
                 className="card-img-top founder-img "
               />
 
-              <div class="card-body text-start founder-name ">
+              <div class="card-body text-start bg-f5 ">
                 <h5 className="card-title">Sakshi Sanghavi - Founder</h5>
               </div>
             </div>
@@ -38,7 +38,7 @@ export default class Aboutus extends Component {
                 className="card-img-top founder-img"
               />
 
-              <div class="card-body text-start founder-name ">
+              <div class="card-body text-start bg-f5 ">
                 <h5 className="card-title">Unnati Shah - Founder</h5>
               </div>
             </div>

@@ -5,7 +5,19 @@ import { Link } from "react-router-dom";
 export default class Navbar extends Component {
   render() {
     return (
+      
+
+
+
       <header className="sticky-top">
+
+        <div className="arrow p-2 text-center ">
+          <a href="" className="text-black text-decoration-none">Avail FREE SHIPPING on your prepaid orders now! </a>
+        </div>
+
+
+
+
         <nav className="navbar navbar-expand-lg bg-body-tertiary fs-sand">
           <div className="container py-3">
 

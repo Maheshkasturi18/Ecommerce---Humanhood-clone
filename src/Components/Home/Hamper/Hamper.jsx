@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import "./Hamper.css";
+
 
 export default class Hamper extends Component {
   render() {
     return (
-      <section className="hamper-bg mb-4">
+      <section className="bg-f5 mb-4">
         <div className="container py-5">
           <h1 className="text-center text-906 mb-4">
             Festive Special Wellness Hampers
