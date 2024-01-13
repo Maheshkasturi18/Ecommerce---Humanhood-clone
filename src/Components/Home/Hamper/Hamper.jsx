@@ -27,9 +27,9 @@ export default class Hamper extends Component {
                   DAILY POSITIVITY HAMPER
                 </h5>
                 <center>
-                  <a href="" className="text-906 text-decoration-none fs-sand">
+                  <a href="" className="text-906 text-decoration-none fs-sand arrow">
                     Shop Now
-                    <i class="fa-solid fa-arrow-right text-906 ps-2"></i>
+                    
                   </a>
                 </center>
               </div>
@@ -47,9 +47,9 @@ export default class Hamper extends Component {
                   ATTRACT ABUNDANCE HAMPER
                 </h5>
                 <center>
-                  <a href="" className="text-906 text-decoration-none fs-sand">
+                  <a href="" className="text-906 text-decoration-none fs-sand arrow">
                     Shop Now
-                    <i class="fa-solid fa-arrow-right text-906 ps-2"></i>
+                    
                   </a>
                 </center>
               </div>
@@ -67,9 +67,9 @@ export default class Hamper extends Component {
                   MORNING ROUTINE ESSENTIALS HAMPER
                 </h5>
                 <center>
-                  <a href="" className=" text-906 text-decoration-none fs-sand">
+                  <a href="" className=" text-906 text-decoration-none fs-sand arrow">
                     Shop Now
-                    <i class="fa-solid fa-arrow-right text-906 ps-2"></i>
+                    
                   </a>
                 </center>
               </div>

@@ -76,9 +76,9 @@ export default class Giftcard extends Component {
                   </svg>
                   Share
                 </a>
-                <a href="" className="text-906">
+                <a href="" className="text-906 arrow">
                   View full details
-                  <i className="fa-solid fa-arrow-right ps-2"></i>
+                  
                 </a>
               </div>
             </div>
