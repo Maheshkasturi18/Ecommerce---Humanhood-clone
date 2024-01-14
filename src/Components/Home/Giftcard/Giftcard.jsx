@@ -26,7 +26,7 @@ export default class Giftcard extends Component {
 
               <p className="fs-14">Denominations</p>
 
-              <div className="d-flex gap-2 mb-3">
+              <div className="d-flex flex-wrap gap-2 mb-3">
                 <a href="" className="card-btn-price">
                   1500.00
                 </a>

@@ -6,14 +6,14 @@ export default class Affirmation extends Component {
       <section className=" mb-4 text-906 fs-sand">
         <div className="container py-5 ">
           <div className="row ">
-            <div className="col-lg-6 mb-4 mb-md-0">
+            <div className="col-md-6 mb-4 mb-md-0">
               <img
                 src="images/affirmation_img.webp"
                 alt=""
                 className="img-fluid"
               />
             </div>
-            <div className="col-lg-6 px-lg-5 ">
+            <div className="col-md-6 px-lg-5 ">
               <h6 className="text-black">HUMANHOOD OFFICIAL</h6>
               <h1 className="mb-4 text-black pe-5">
                 2024 Dated Planner: Garden of Dreams + Free Affirmation Flip Up

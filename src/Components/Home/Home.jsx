@@ -6,10 +6,12 @@ import Blog from "./Blog/Blog";
 import Giftcard from "./Giftcard/Giftcard";
 import FeatProd from "./FeatProd/FeatProd";
 import Affirmation from "./Affirmation/Affirmation";
+import Carousel from "./Carousel/Carousel";
 
 function Home() {
   return (
     <div>
+    <Carousel/>
       <Affirmation />
       <Herosection />
       <Featured />

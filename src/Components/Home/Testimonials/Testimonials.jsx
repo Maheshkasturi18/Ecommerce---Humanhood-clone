@@ -35,11 +35,11 @@ export default class Testimonials extends Component {
       ],
     };
     return (
-      <div className="container-fluid p-3 p-md-4 text-center">
+      <div className="container-fluid p-5 text-center">
         <h2 className="mb-4 text-906"> Testimonials </h2>
         <Slider {...settings}>
           <div className="">
-            <div className=" p-3 p-md-5 testimonial mb-3 ">
+            <div className=" p-5 testimonial me-1 mb-3 ">
               <i className="fa-solid fa-star star"></i>
               <i className="fa-solid fa-star star"></i>
               <i className="fa-solid fa-star star"></i>
@@ -53,7 +53,7 @@ export default class Testimonials extends Component {
             <h6>Kavya Mita</h6>
           </div>
           <div>
-            <div  className=" p-3 p-md-5 testimonial mx-3 mb-3">
+            <div  className=" p-5 testimonial mx-1 mb-3">
               <i className="fa-solid fa-star star"></i>
               <i className="fa-solid fa-star star"></i>
               <i className="fa-solid fa-star star"></i>
@@ -67,7 +67,7 @@ export default class Testimonials extends Component {
             <h6>Amrita Nepram </h6>
           </div>
           <div>
-            <div  className=" p-3 p-md-5 testimonial mb-3">
+            <div  className=" p-5 testimonial ms-1 mb-3">
               <i className="fa-solid fa-star star"></i>
               <i className="fa-solid fa-star star"></i>
               <i className="fa-solid fa-star star"></i>

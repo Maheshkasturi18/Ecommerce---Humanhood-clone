@@ -36,17 +36,17 @@ export default class Blog extends Component {
     };
     return (
       <section >
-        <div className="container mb-5 ">
-          <h2 className="mb-4 d-none d-lg-block px-3 "> Read </h2>
+        <div className="container p-4 p-lg-0 mb-5 ">
+          <h2 className="mb-4 d-none d-lg-block px-3"> Read </h2>
 
-          <div className="d-flex justify-content-between px-3  d-md-block d-lg-none mb-4">
+          <div className="d-flex justify-content-between align-items-center   d-block d-lg-none mb-4">
             <h2 className=""> Read... </h2>
             <a href="/" className="text-906">
               View all
             </a>
           </div>
 
-          <Slider {...settings} className="mb-5 fs-sand">
+          <Slider {...settings} className="mb-5  px-md-0 fs-sand">
             <div className="card h-100 border-0 cd">
               <div className="card-img">
                 <img
