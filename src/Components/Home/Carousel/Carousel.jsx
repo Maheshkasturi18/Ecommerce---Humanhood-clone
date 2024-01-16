@@ -70,7 +70,7 @@ export default class Carousel extends Component {
             </div>
           </div>
 
-          <div class="carousel-indicators">
+          <div class="carousel-indicators border-bottom">
             <button
               type="button"
               data-bs-target="#carouselExample"
@@ -179,7 +179,7 @@ export default class Carousel extends Component {
             </div>
           </div>
 
-          <div class="carousel-indicators">
+          <div class="carousel-indicators border-bottom">
             <button
               type="button"
               data-bs-target="#carouselExampleAutoplaying"

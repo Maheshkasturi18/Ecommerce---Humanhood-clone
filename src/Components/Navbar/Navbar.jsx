@@ -1,9 +1,25 @@
 import React, { Component } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import SearchBar from "./Searchbar";
 
 export default class Navbar extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isSearchBarOpen: false,
+    };
+  }
+
+  handleSearchIconClick = () => {
+    this.setState((prevState) => ({
+      isSearchBarOpen: !prevState.isSearchBarOpen,
+    }));
+  };
+
   render() {
+    const { isSearchBarOpen } = this.state;
+    
     return (
       <>
         <section className="container-fluid bg-904c">
@@ -13,7 +29,7 @@ export default class Navbar extends Component {
             </a>
           </div>
         </section>
-        <header className="sticky-top">
+        <header className={`sticky-top ${isSearchBarOpen ? 'hidden' : ''}`}>
           <nav className="navbar navbar-expand-lg bg-body-tertiary fs-sand">
             <div className="container py-3">
               <button
@@ -180,7 +196,14 @@ export default class Navbar extends Component {
               </div>
 
               <div className="d-flex gap-2 gap-md-4 search">
-                <i class="fa-solid fa-magnifying-glass  fs-5 mt-1 "></i>
+                <div
+                  className="search-icon"
+                  onClick={this.handleSearchIconClick}
+                >
+                  <i class="fa-solid fa-magnifying-glass  fs-5 mt-1 "></i>
+                </div>
+                {isSearchBarOpen && <SearchBar />}
+
                 <span class="material-symbols-outlined fs-3">shopping_bag</span>
               </div>
             </div>

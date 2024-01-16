@@ -1,6 +1,24 @@
 import React, { Component, useState } from "react";
 
 export default class Affirmation extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 1,
+    };
+  }
+
+  handleIncrement = () => {
+    this.setState((prevState) => ({
+      count: prevState.count + 1,
+    }));
+  };
+
+  handleDecrement = () => {
+    this.setState((prevState) => ({
+      count: Math.max(prevState.count - 1, 1),
+    }));
+  };
   render() {
     return (
       <section className=" mb-4 text-906 fs-sand">
@@ -33,10 +51,20 @@ export default class Affirmation extends Component {
 
               <p className="fs-14">Quantity</p>
 
-              <div className="Counter">
-                <button onclick="increment()">+</button>
-                <h2 id="counting"></h2>
-                <button onclick="decrement()">-</button>
+              <div className="Counter d-inline-flex border-906 mb-3">
+                <button
+                  onClick={this.handleDecrement}
+                  className="border-0 px-3 bg-transparent text-906 fs-2"
+                >
+                  -
+                </button>
+                <h2 className=" fs-5 m-auto text-center">{this.state.count}</h2>
+                <button
+                  onClick={this.handleIncrement}
+                  className="border-0 px-3 bg-transparent text-906 fs-4"
+                >
+                  +
+                </button>
               </div>
 
               <div className="d-grid gap-3 mb-5 cart-button">
