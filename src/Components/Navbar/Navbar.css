@@ -150,3 +150,33 @@
     text-decoration: none;
   }
 }
+
+
+/* search bar */
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-icon {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.search-inp-grp{
+  border: 1px solid black;
+  width: 35%;
+}
+
+.search-inp-grp input{
+ width: 100%;
+}
+
+
+
+
+
+
+
