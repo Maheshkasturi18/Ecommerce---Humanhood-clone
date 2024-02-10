@@ -13,7 +13,7 @@
 }
 
 /* Lines of the Toggler */
-.toggler-icon{
+.toggler-icon {
   width: 30px;
   height: 3px;
   background-color: gray;
@@ -22,7 +22,7 @@
 }
 
 /* Adds Space between the lines */
-.middle-bar{
+.middle-bar {
   margin: 5px auto;
 }
 
@@ -63,9 +63,6 @@
   background-color: #777777;
 }
 /* end */
-
-
-
 
 /* logo */
 .navbar-Brand img {
@@ -131,12 +128,10 @@
   .search i {
     font-size: 16px !important;
   }
-
-  
 }
 
 @media screen and (max-width: 985px) {
-  .navbar ul li a{
+  .navbar ul li a {
     font-size: 20px;
   }
 
@@ -151,7 +146,6 @@
   }
 }
 
-
 /* search bar */
 
 .search-bar {
@@ -165,18 +159,59 @@
   padding: 10px;
 }
 
-.search-inp-grp{
+.search-inp-grp {
   border: 1px solid black;
   width: 35%;
 }
 
-.search-inp-grp input{
- width: 100%;
+.search-inp-grp input {
+  width: 100%;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  background: white;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay.open {
+  height: 22%;
+}
+
+.overlay-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
 }
 
 
+@media screen and (max-width: 330px) {
+  .overlay.open {
+    height: 30%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .search-inp-grp {
+    width: 70% !important;
+  }
+}
 
 
+@media screen and (max-width: 770px) {
+  .overlay.open {
+    height: 25%;
+  }
 
-
-
+  .search-inp-grp {
+    width: 50% !important;
+  }
+}

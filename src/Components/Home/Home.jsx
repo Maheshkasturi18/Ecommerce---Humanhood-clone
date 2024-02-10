@@ -7,12 +7,10 @@ import Giftcard from "./Giftcard/Giftcard";
 import FeatProd from "./FeatProd/FeatProd";
 import Affirmation from "./Affirmation/Affirmation";
 import Carousel from "./Carousel/Carousel";
-import SearchBar from "./Searchbar";
 
 function Home() {
   return (
     <div>
-      <SearchBar />
       <Carousel />
       <Affirmation />
       <Herosection />

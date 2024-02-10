@@ -4,28 +4,23 @@ import { Link } from "react-router-dom";
 // import SearchBar from "./Searchbar";
 
 function Navbar() {
-  //   const [searchText, setSearchText] = useState("");
-  //   const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [isNavOpen, setIsNavOpen] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
 
-  //   const handleSearch = () => {
-  //     // Handle the search functionality
-  //     console.log("Searching for:", searchText);
-  //   };
+  const openNav = () => {
+    setIsNavOpen(true);
+  };
 
-  //   const handleCancel = () => {
-  //     // Clear the search text and close the search bar
-  //     setSearchText("");
-  //     setIsSearchOpen(false);
-  //   };
+  const closeNav = () => {
+    setIsNavOpen(false);
+  };
 
-  //   const toggleSearch = () => {
-  //     setIsSearchOpen(!isSearchOpen);
-  //   };
+  const handleSearchChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
 
   return (
     <>
-
-
       <section className="container-fluid bg-904c">
         <div className="container arrow p-2 text-center ">
           <a href="" className="text-black text-decoration-none">
@@ -33,7 +28,7 @@ function Navbar() {
           </a>
         </div>
       </section>
-      <header className="sticky-top" >
+      <header className="sticky-top">
         <nav className="navbar navbar-expand-lg bg-body-tertiary fs-sand">
           <div className="container py-3">
             <button
@@ -188,36 +183,45 @@ function Navbar() {
             </div>
 
             <div className="d-flex gap-2 gap-md-4 search">
-              {/* <div className={`search-bar ${isSearchOpen ? "open" : ""}`}> */}
-              <div className="search-icon">
-                <i class="fa-solid fa-magnifying-glass  fs-5 mt-1 "></i>
+              <div
+                className="search-icon"
+                onClick={() => (isNavOpen ? closeNav() : openNav())}
+              >
+                <i class="fa-solid fa-magnifying-glass fs-5 mt-1 "></i>
               </div>
-
-              {/* <div className="input-group inp-grp  ">
-                  <div class="form-floating  ">
+              <div
+                className={`mx-auto search-bar ${
+                  isNavOpen ? "overlay open" : "overlay"
+                }`}
+              >
+                <div className="input-group search-inp-grp">
+                  <div class="form-floating">
                     <input
                       type="text"
                       placeholder="Search..."
-                      class="form-control shadow-none border-0"
+                      className="form-control shadow-none ms-0 border-0"
                       id="search"
-                      value={searchText}
-                      onChange={(e) => setSearchText(e.target.value)}
+                      value={searchTerm}
+                      onChange={handleSearchChange}
                     />
                     <label for="search">Search</label>
                   </div>
-                  <button
-                    class="btn "
-                    type="button"
-                    id="button-addon2"
-                    onClick={handleSearch}
-                  >
+                  <button class="btn " type="button" id="button-addon2">
                     <i class="fa-solid fa-magnifying-glass  fs-5 mt-1 "></i>
                   </button>
-                  <button onClick={handleCancel}>Cancel</button>
                 </div>
-              </div> */}
 
-              <span class="material-symbols-outlined fs-3  py-lg-2">
+                <button
+                  class="btn "
+                  type="button"
+                  id="button-addon2"
+                  onClick={closeNav}
+                >
+                  <i class="fa-solid fa-xmark fs-3"></i>
+                </button>
+              </div>
+
+              <span class="material-symbols-outlined fs-3 my-2 py-lg-2">
                 shopping_bag
               </span>
             </div>
