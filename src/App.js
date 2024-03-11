@@ -17,8 +17,8 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="JoinComn/" element={<JoinComn />}></Route>
         <Route path="TalkTherapy/" element={<TalkTherapy />}></Route>
-        <Route path="Aboutus/" element={<Aboutus/>}></Route>
-        <Route path="Blogs/" element={<Blogs/>}></Route>
+        <Route path="Aboutus/" element={<Aboutus />}></Route>
+        <Route path="Blogs/" element={<Blogs />}></Route>
       </Routes>
       <Footer />
     </Router>
