@@ -12,7 +12,7 @@ import NewsletterForm from "./Newsletter/Newsletter";
 function Home() {
   return (
     <div>
-    <NewsletterForm/>
+      <NewsletterForm />
       <Carousel />
       <Affirmation />
       <Herosection />

@@ -8,8 +8,8 @@ function NewsletterForm() {
     const timer = setTimeout(() => {
       setShowForm(true);
 
-      document.body.classList.add('newsletter-overlay-open');
-    }, 1000);
+      document.body.classList.add("newsletter-overlay-open");
+    }, 5000);
 
     return () => clearTimeout(timer); // Cleanup timer on unmount
   }, []); // Run only once on component mount
@@ -21,51 +21,74 @@ function NewsletterForm() {
   };
 
   return (
-    <div
-      className={`modal fade ${showForm ? "show" : ""}`}
-      id="newsletterModal"
-      tabIndex="-1"
-      aria-labelledby="newsletterModalLabel"
-      aria-hidden={!showForm}
-    >
-      <div className="modal-dialog modal-lg modal-dialog-centered">
-        <div className="modal-content">
-          <div className="modal-header">
-            <button
-              type="button"
-              className="btn-close"
-              aria-label="Close"
-              onClick={handleClose}
-            ></button>
-          </div>
-          <div className="modal-body row custom-modal-body">
-            <div className="form-column col-md-4">
-              <h2 className="modal-title" id="newsletterModalLabel">
-                Subscribe to our Newsletter
-              </h2>
-              <form>
-                {/* Newsletter form fields */}
-                <input
-                  type="email"
-                  className="form-control mb-2"
-                  placeholder="Enter your email"
-                />
-                <button type="submit" className="btn btn-primary">
-                  Subscribe
-                </button>
-              </form>
-            </div>
-            <div className="image-column col-md-8">
-              <img
-                src="images/newsletter_img.png"
-                alt="Newsletter"
-                className="img-fluid"
-              />
+    <>
+      {/* Modal Backdrop */}
+      {showForm && (
+        <div>
+          <div className="modal-backdrop show" onClick={handleClose}></div>
+
+          <div
+            className={`modal d-none d-lg-block fade ${showForm ? "show" : ""}`}
+            id="newsletterModal"
+            tabIndex="-1"
+            aria-labelledby="newsletterModalLabel"
+            aria-hidden={!showForm}
+          >
+            <div className="modal-dialog modal-lg modal-dialog-centered justify-content-center">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <button
+                    type="button"
+                    className="btn-close"
+                    aria-label="Close"
+                    onClick={handleClose}
+                  ></button>
+                </div>
+                <div className="modal-body row custom-modal-body">
+                  <div className="form-column col-md-6 p-5 text-center">
+                    <h1 className="fw-bold">WAIT!</h1>
+                    <h4 className="modal-title mb-5" id="newsletterModalLabel">
+                      Don't go just yet!
+                    </h4>
+                    <p>
+                      Before you go, we'd like to offer you an extra 5% off your
+                      next purchase.
+                    </p>
+
+                    {/* Newsletter form fields */}
+                    <form>
+                      <input
+                        type="email"
+                        className="form-control mb-2"
+                        placeholder="Enter your email"
+                      />
+                      <button
+                        type="submit"
+                        className="btn bg-904c mb-4 rounded-0 w-100 text-white fw-bold"
+                      >
+                        Stay and Save 5%
+                      </button>
+                    </form>
+                    {/* Newsletter form fields */}
+
+                    <a href="" className="text-decoration-none text-black">
+                      No thanks!
+                    </a>
+                  </div>
+                  <div className="image-column col-md-6">
+                    <img
+                      src="images/newsletter_img.png"
+                      alt="Newsletter"
+                      className="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      )}
+    </>
   );
 }
 
